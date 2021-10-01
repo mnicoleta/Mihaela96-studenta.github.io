@@ -1,0 +1,271 @@
+/* body */
+
+body{
+      /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7abcff+0,4096ee+100 */
+background:url(https://www.transparenttextures.com/patterns/arches.png) repeat, #7abcff; /* Old browsers */
+background:url(https://www.transparenttextures.com/patterns/arches.png) repeat, -moz-linear-gradient(top,  #7abcff 0%, #4096ee 100%); /* FF3.6-15 */
+background:url(https://www.transparenttextures.com/patterns/arches.png) repeat, -webkit-linear-gradient(top,  #7abcff 0%,#4096ee 100%); /* Chrome10-25,Safari5.1-6 */
+background:url(https://www.transparenttextures.com/patterns/arches.png) repeat, linear-gradient(to bottom,  #7abcff 0%,#4096ee 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+
+  }
+/* navbar */
+
+.nav-prima{
+    background:url(https://www.transparenttextures.com/patterns/arches.png) repeat #cfcfe6;
+     /* background-color:rgb(66, 65, 65);  */
+
+}
+
+.navbar-brand{
+    text-shadow: 4px 3px 0px rgb(219, 212, 212), 9px 8px 0px rgba(0,0,0,0.15);
+    font-weight: bold;
+    font-size: 26px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 1%;
+    color: white;
+}
+
+#nav1{
+    color:rgb(121, 54, 54);
+    font-weight: bold;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: transform 250ms;
+}
+#nav1:hover {
+    background:url(https://www.transparenttextures.com/patterns/arches.png) repeat, #7abcff; /* Old browsers */
+background:url(https://www.transparenttextures.com/patterns/arches.png) repeat, -moz-linear-gradient(top,  #7abcff 0%, #4096ee 100%); /* FF3.6-15 */
+background:url(https://www.transparenttextures.com/patterns/arches.png) repeat, -webkit-linear-gradient(top,  #7abcff 0%,#4096ee 100%); /* Chrome10-25,Safari5.1-6 */
+background:url(https://www.transparenttextures.com/patterns/arches.png) repeat, linear-gradient(to bottom,  #7abcff 0%,#4096ee 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    transform: translateY(-10px);
+    border-radius: 50px;
+
+}
+.nav-link{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 1%;
+    font-weight: bold;
+}
+
+/* carusel */
+.testimonial-image{
+   
+    border-radius: 25px;
+    max-width: 200px;
+    width:100%;
+    margin-left: 42%;
+    max-height: 200px;
+ 
+}
+.testimonial-text{
+ 
+    color:rgb(121, 54, 54);
+    margin-left: 42%;
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  
+
+}
+
+.colored-section{
+    background:url(https://www.transparenttextures.com/patterns/arches.png) repeat, #579ee6; /* Old browsers */
+    background:url(https://www.transparenttextures.com/patterns/arches.png) repeat, -moz-linear-gradient(top,  #519fec 0%, #4096ee 100%); /* FF3.6-15 */
+    background:url(https://www.transparenttextures.com/patterns/arches.png) repeat, -webkit-linear-gradient(top,  #7abcff 0%,#4096ee 100%); /* Chrome10-25,Safari5.1-6 */
+    background:url(https://www.transparenttextures.com/patterns/arches.png) repeat, linear-gradient(to bottom,  #7abcff 0%,#4096ee 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    
+  }
+
+ 
+  .testimonial-text1{
+      font-size: 2rem;
+      text-align: center;
+      font-weight: bold;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      color:rgb(121, 54, 54);
+  }
+
+  .testimonial-text2{
+      text-align: center;
+      font-weight: bold;
+      font-size: 19px;
+
+  }
+
+
+
+
+#despreN{
+    /* padding: 2% 3%; */
+    font-weight: bold;
+    max-width: 200px;
+    width: 100%;
+}
+#despreN1{
+    margin-right: 10%;
+}
+
+
+
+.tag1{
+    max-width:200px;
+  width:100%;
+}
+
+
+/* prezentare */
+.prezentare1{
+    font-size: 2.9vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 3%;
+    padding-bottom: 6%;
+    text-shadow: 0 0 3px #FF0000; 
+    position: relative;
+    -webkit-text-stroke: 0.2vw black;
+}
+.prezentare1::before
+{
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    color:rgb(121, 54, 54);
+    text-shadow: 0 0 3px #FF0000;
+    border-bottom: 2px solid rgb(121, 54, 54);
+    overflow: hidden;
+    animation: animate 6s linear infinite;
+
+
+}
+@keyframes animate
+{
+    0%{
+        width: 0%;
+    }
+    70%{
+        width: 100%;
+    }
+}
+.prezentare{
+    font-size: 19px;    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: bold;
+}
+.prezentareT{
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(9, 14, 17, 0.32) 0px 2px 16px 0px;
+    border-radius: 50px;
+    width: 100%x;
+    padding: 2% 1%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 19px;
+    transform: ease-out;
+    background: rgb(51, 83, 240);
+background: radial-gradient(circle, rgba(45, 135, 238, 0.836) 60%, rgb(175, 173, 173) 50%);
+color: black;
+font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+}
+
+
+
+  .row{
+   padding: 0% 0%;
+   position: relative;
+   margin-top: -18 auto;
+  }
+  hr {
+    overflow: visible;
+    padding: 0% 10%;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+}
+hr:after {  
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: rgb(240, 224, 224);
+}
+  .logo-domenii{
+      text-align: center;
+      padding-top: 4%;
+      font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      padding-bottom: 4%;
+      border: 1px solid black;
+
+  }
+  .press-logo{
+    width: 110px;
+   padding: 1% ;
+    margin-left: 0px;
+    align-items: center;
+    will-change: transform;
+}
+
+
+img:hover {
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 7%, rgb(143, 119, 142) 60%);
+    transform: translateY(-10px);
+    transition: ease-in;
+
+}
+
+.container-fluid {
+    padding:0% 10%;
+    margin: 10px 0px 30px 10px;
+}
+
+
+
+ .info{
+    list-style: none;
+}
+#manuta{
+    color: rgb(44, 24, 155);
+}
+.star{
+    list-style-type: none;
+    color:rgb(121, 54, 54);
+    font-weight: bold;
+    font-size: larger;
+    text-align: center;
+
+}
+#steluta{
+    color: rgb(182, 159, 30);
+}
+
+.poza-baiat{
+    width: 300px;
+    transition: transform 750ms;
+    will-change: transform;
+}
+
+#footer{
+    text-align: center;
+    font-size: 26px;
+    background-color: white;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+.footer-text{
+    padding-right: 2%;
+}
+
+.white-section{
+    background-color: white;
+}
